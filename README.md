@@ -1,6 +1,8 @@
 ## Chicago Vaccine Distribution Analysis
 
-The main objective of this analysis is to understand the availability of vaccines at a provider level in the most vulnerable community areas in Cook County.
+The analysis was performed in collaboration with [WBEZ](https://www.wbez.org/) and [The Brown Institute](https://brown.columbia.edu/)
+
+The main objective of this analysis is to understand the availability of vaccines at a provider level in the most vulnerable community areas in Chicago Area.
 
 The Protect Chicago website has provided a detailed pdf about the methodology used to determine [Chicago COVID-19 Community Vulnerability Index (CCVI)](https://www.chicago.gov/content/dam/city/sites/covid/reports/012521/Community_Vulnerability_Index_012521.pdf). The index was calculated using the Chicago Community Area Naming convention.
 
@@ -12,11 +14,10 @@ We then used the Community Boundary GeoJSON dataset from the City of Chicago [da
 
 ![](https://github.com/smarthxg/chicago-vaccine-inequity/blob/main/provider_viz.png)
 
-The Graph above shows a mapping of each provider to the appropriate Community Area Name.
+The Graph above shows a mapping of each provider to the appropriate Community Area Name and gives an idea of the distribution of providers in general.
 
 The dataset was aggregated by the community area name to find the total number of vaccines available (from a Supply Perspective) in each community area.
 
 We then considered the Community Areas marked as highly vulnerable according to the CCVI score and reported the vaccine availability numbers on an aggregate and a per capita level.
 
 The analysis can be found in this [here](https://github.com/smarthxg/chicago-vaccine-inequity/blob/main/Provider_Address_%2B_Lat_Long_%2B_Community_Mapping.ipynb).
-
